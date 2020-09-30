@@ -5,8 +5,10 @@ function showLoader(show) {
     if (show) {
         loader.classList.remove("hide");
     } else {
-        loader.classList.add("hide");
+        setTimeout(() => {
+            loader.classList.add("hide");
+        }, 2700)
     }
 }
 
-showLoader(true);
+showLoader(false);
