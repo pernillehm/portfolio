@@ -7,6 +7,7 @@ body {
   display: inline;
   padding-left: 5%;
   padding-right: 5%;
+  right: 0;
   font-family: 'Hijo Puta Peligroso';
   font-size: 2.2em;
 }
@@ -79,4 +80,18 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* ---------- kontakt styling ---------- */
+
+.linkedin-logo {
+  width: 5%;
+}
+
+.insta-logo {
+  width: 5%;
+}
+
+.facebook-logo {
+  width: 5%;
 }
